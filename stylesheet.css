@@ -1,28 +1,71 @@
 .heading{
 
-color:#0000FF;
-font-size:40px;
+color:black;
+font-size:50px;
 text-align:center;
 border-top:10px;
 border-bottom:10px;
+height:250px;
+width:auto;
+background-image:url('https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQzVWn3fDQhmM3X6tz4xtYLc26wcaNxpxm41SvE_VHWItTs7gF4&usqp=CAU');
+background-size:300px 400px;
+background-attachment:fixed;
 }
+.drop  {
+    float: left;
+    font-size: 45px;
+    line-height: 1;
+    font-weight: bold;
+    margin-right: 9px;
+}
+label{
+	font-size:20px;
+	padding:10px 10px 10px 10px;
+	margin:10px 10px 10px 10px;
+	
+}
+.corona{
+	background-color:#D1f2EB;
+}
+
 .information
-{border-top:1px solid white;
+{
 	
 font-size:20px;
 
 margin-top:40px;
 }
+
+.links ul li{
+	background-color:lightgrey;
+	padding-top:10px;
+	padding-bottom:10px;
+	margin-top:10px;
+	margin-bottom:10px;
+}
 .information h4{
-	color:#0000FF;
+	color:black;
 	
+}
+.links ul li a{
+text-decoration:none;
+color:black;
+text-align:left;
+}
+img{
+height:150px;
+width:250px;
+margin-left:15px;
+margin-right:15px;
+border-radius:8px;
+align:center;
 }
 
 li{
 	float:left;
 	color:blue;
 	text-align:left;
-	font-size:30px;
+	font-size:20px;
 padding:10px 10px;
 
 margin-top:10px;
@@ -33,8 +76,9 @@ ul{
 	list-style-type:none;
 	
 }
+/
 tr{
-		background-color:white;
+		background-color:lightgrey;
 	}
 
 td{
@@ -42,10 +86,21 @@ td{
 		padding:10px 10px 10px 10px;
 	margin:10px 10px 10px 10px;
 	}
-
+iframe{
+	margin-left:auto;
+	margin-right:auto;
+	display:block;
+}	
+.tab{
+size:25px;
+}
+footer {
+	float:right;
+}
 table{
 	
 	border-collapse:collapse;
-	width:90%;
+	width:50%;
 	
+	background-color:lightgrey;
 }
